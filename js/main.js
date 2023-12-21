@@ -5,7 +5,7 @@ but.addEventListener("click",button);
 
 function button () {
 
-    /*but.style.visibility = "hidden";*/ /*Punto seis se comentara para hacer BONUS*/
+    but.style.visibility = "hidden";
 
     const character = window.prompt("¿Quién se presenta hoy? (Mario, Luigi, Bowser, Peach, Yoshi, Toad, Toadette, Daisy)");
     const span = document.getElementsByTagName("span");
@@ -66,4 +66,3 @@ function button () {
         return character.toLowerCase();
     }
 
-console.log(button());
